@@ -1,0 +1,173 @@
+/*---------------------------------------*/
+html, body
+{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.25rem;
+    text-align: left;
+    color: #000000;
+}
+
+/* iPhones */
+body 
+{
+    font-size: 1.25rem;
+    line-height: 1.563rem;
+    padding: 0;
+    margin: 0;
+}
+/* iPad mini / Small Monitor RED */
+@media screen and (min-width: 768px)
+{
+    body{font-size: 1.563rem; line-height: 2.441rem; /*color: #D9534F;*/}
+}
+/* iPad Pro / Typical Monitor BLUE*/
+@media (min-width: 992px) 
+{
+    body{font-size: 1.953rem; line-height: 3.052rem; /*color: #5BC0DE;*/}
+}
+/* XL Monitor GREEN*/
+@media (min-width: 1200px) 
+{
+    body{font-size: 2.441rem; line-height: 3.815rem; /*color: #5CD85C;*/}
+}
+
+
+/* iPhones */
+h1 
+{
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+
+    font-size: 1.563rem;
+    line-height: 1.563rem;
+}
+/* iPad mini / Small Monitor */
+@media screen and (min-width: 768px) 
+{
+    h1{font-size: 1.953rem; line-height: 1.953rem;}
+}
+/* iPad Pro / Typical Monitor */
+@media screen and (min-width: 992px) 
+{
+    h1{font-size: 2.441rem; line-height: 2.441rem;
+    }
+}
+/* XL Monitor */
+@media screen and (min-width: 1200px) 
+{
+    h1{font-size: 3.052rem; line-height: 3.052rem;}
+}
+
+/* iPhones */
+h2
+{
+    font-weight: 400;
+    padding: 0.328rem 0 0 0;
+    margin: 0;
+
+    font-size: 0.8rem;
+    line-height: 0.8rem;
+}
+/* iPad mini / Small Monitor */
+@media screen and (min-width: 768px) 
+{
+    h2{font-size: 1rem; line-height: 1rem;}
+}
+/* iPad Pro / Typical Monitor */
+@media screen and (min-width: 992px) 
+{
+    h2{font-size: 1.25rem; line-height: 1.25rem;}
+}
+/* XL Monitor */
+@media screen and (min-width: 1200px) 
+{
+    h2
+    {font-size: 1.563rem; line-height: 1.563rem;}
+}
+
+/* iPhones */
+h3
+{
+    font-weight: 400;
+    padding: 1.953vh 0 0 0;
+    margin: 0;
+
+    font-size: 0.8rem;
+    line-height: 1rem;
+}
+/* iPad mini / Small Monitor */
+@media screen and (min-width: 768px) 
+{
+    h3{font-size: 1rem; line-height: 1.25rem;}
+}
+/* iPad Pro / Typical Monitor */
+@media screen and (min-width: 992px) 
+{
+    h3
+    {font-size: 1rem; line-height: 1.25rem;}
+}
+/* XL Monitor */
+/*@media screen and (min-width: 1200px) 
+{
+    h3{font-size: 1.25rem; line-height: 1.563rem;}
+}*/
+
+a, a:hover, a:visited, a:focus 
+{
+    display: block;
+    margin: 0;
+    font-weight: 700;
+    color: #000000;
+}
+
+
+
+/*---------------------------------------*/
+/* Row & Column Override */
+.container-fluid
+{
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.row 
+{
+	margin: 0;
+	padding: 0;
+    padding: 0 5vh;
+    width: 100vw;
+}
+
+[class*="col-"] 
+{
+	padding: 0;
+}
+
+
+/*---------------------------------------*/
+/* Identifiers */
+#title 
+{
+    position: fixed;
+    top: 5vh;
+}
+
+#body 
+{
+
+}
+
+#contact 
+{
+    position: fixed;
+    bottom: 5vh;
+}

@@ -12,30 +12,30 @@ html, body
 /* iPhones */
 body 
 {
-    font-size: 1rem;
-    line-height: 1.563rem;
+    font-size: 0.8rem;
+    line-height: 1.25rem;
     padding: 0;
     margin: 0;
 }
 /* iPad mini / Small Monitor RED */
 @media screen and (min-width: 568px)
 {
-    body{font-size: 1.25rem; line-height: 1.953rem; /*color: #D9534F;*/}
+    body{font-size: 1rem; line-height: 1.563rem; /*color: #D9534F;*/}
 }
 /* iPad mini / Small Monitor RED */
 @media screen and (min-width: 768px)
 {
-    body{font-size: 1.563rem; line-height: 2.441rem; /*color: #D9534F;*/}
+    body{font-size: 1.25rem; line-height: 1.953rem; /*color: #D9534F;*/}
 }
 /* iPad Pro / Typical Monitor BLUE*/
 @media (min-width: 992px) 
 {
-    body{font-size: 1.953rem; line-height: 3.052rem; /*color: #5BC0DE;*/}
+    body{font-size: 1.563rem; line-height: 2.441rem; /*color: #5BC0DE;*/}
 }
 /* XL Monitor GREEN*/
 @media (min-width: 1200px) 
 {
-    body{font-size: 2.441rem; line-height: 3.815rem; /*color: #5CD85C;*/}
+    body{font-size: 1.953rem; line-height: 3.052rem; /*color: #5CD85C;*/}
 }
 
 
